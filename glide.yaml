@@ -1,0 +1,5 @@
+package: github.com/BrambleLLC/Go-Service-Template
+import:
+- package: github.com/go-martini/martini
+  version: ~1.0.0
+- package: google.golang.org/appengine
