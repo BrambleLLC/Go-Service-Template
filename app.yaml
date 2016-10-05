@@ -1,13 +1,12 @@
 application: APPLICATION_NAME
 service: SERVICE_NAME
-runtime: custom
+runtime: go
 version: VERSION
-vm: true
 api_version: go1
 threadsafe: true
 
 handlers:
-  - url: /api/SERVICE_NAME/.*
+  - url: /.*
     script: _go_app
     secure: always
 
