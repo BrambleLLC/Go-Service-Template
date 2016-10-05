@@ -16,3 +16,4 @@ skip_files:
   - ^(.*/)?\.git.*$
   - ^(.*/)?\.vscode$
   - ^(.*/)?\.vscode/.*$
+  - ^(.*/)?vendor/
