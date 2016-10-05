@@ -10,3 +10,9 @@ handlers:
   - url: /api/SERVICE_NAME/.*
     script: _go_app
     secure: always
+
+skip_files:
+  - ^(.*/)?glide.lock$
+  - ^(.*/)?\.git.*$
+  - ^(.*/)?\.vscode$
+  - ^(.*/)?\.vscode/.*$
