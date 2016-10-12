@@ -12,6 +12,7 @@ handlers:
 
 skip_files:
   - ^(.*/)?glide.lock$
+  - ^(.*/)?vendor/.*$
   - ^(.*/)?\.git.*$
   - ^(.*/)?\.vscode$
   - ^(.*/)?\.vscode/.*$
